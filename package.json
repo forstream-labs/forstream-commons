@@ -1,7 +1,7 @@
 {
   "name": "@forstream/utils",
   "description": "Forstream Utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://forstream.io",
   "author": "Forstream team <contact@forstream.io> (https://forstream.io)",
   "repository": {
@@ -22,9 +22,9 @@
   },
   "main": "index.js",
   "devDependencies": {
-    "eslint": "7.1.0",
-    "eslint-config-airbnb-base": "14.1.0",
-    "eslint-plugin-import": "2.20.2",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.21.2",
     "release-n-publish": "0.0.14"
   },
   "dependencies": {
