@@ -1,0 +1,34 @@
+{
+  "name": "utils",
+  "description": "Forstream Utils",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://forstream.io",
+  "author": "Forstream team <contact@forstream.io> (https://forstream.io)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/forstream/forstream-utils.git"
+  },
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "release-lib": "node tasks/release.js",
+    "publish-lib": "node tasks/publish.js"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "7.1.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2",
+    "release-n-publish": "0.0.14"
+  },
+  "dependencies": {
+    "winston": "^3.2.1"
+  }
+}
