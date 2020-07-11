@@ -1,12 +1,12 @@
 {
-  "name": "@forstream/utils",
-  "description": "Forstream Utils",
+  "name": "@forstream/commons",
+  "description": "Forstream Commons",
   "version": "0.0.3",
   "homepage": "https://forstream.io",
   "author": "Forstream team <contact@forstream.io> (https://forstream.io)",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/forstream/forstream-utils.git"
+    "url": "git+https://bitbucket.org/forstream/forstream-commons.git"
   },
   "scripts": {
     "lint": "eslint '**/*.js'",
@@ -28,6 +28,7 @@
     "release-n-publish": "0.0.14"
   },
   "dependencies": {
-    "winston": "^3.2.1"
+    "redis": "3.0.2",
+    "winston": "3.2.1"
   }
 }
